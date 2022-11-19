@@ -4,11 +4,14 @@
     padding: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
 /* Layout */
 
 body{
     height: 8224px;
     background: url(../img/Design.png) no-repeat center;
+    font-family: 'Inter', sans-serif;
 }
 
 /* nav-bar*/
@@ -16,7 +19,7 @@ div .navbar-nav{
     width: 400px;
     margin-top: 8px;
     margin-left: 45px;
-    margin-right: 100px;
+    margin-right: 85px;
 }
 
 ul.navbar-nav li a {
@@ -26,7 +29,8 @@ ul.navbar-nav li a {
 
 a.navbar-brand{
     margin-right: 300px;
-    font-size: 35px;
+    font-size: 32px;
+    font-weight: 700;
     color: #FAFAFA;
 }
 
@@ -35,13 +39,13 @@ a.navbar-brand:hover{
 }
 
 div#login-content{
-    margin-left: -13px;
+    margin-left: -54px;
     margin-top: 9px;
 }
 
 div#login-content .login-click{
     text-decoration: none;
-    font-size: 18px;
+    font-size: 17px;
     color: #FAFAFA;
 }
 
@@ -49,8 +53,9 @@ div#login-content .btn-custom{
     font-size: 18px;
     color: #011037;
     background-color: #FFFFFF;
-    padding: 15px 35px;
-    margin-left: 20px;
+    padding: 14px 45px;
+    margin-left: 35px;
+    border-radius: 5px;
 }
 
 /*Social-icons*/
@@ -58,7 +63,7 @@ div#login-content .btn-custom{
 div#social-icons{
     position: absolute;
     margin-left: 300px;
-    margin-top: -1000px;
+    margin-top: -880px;
 }
 
 div#social-icons a{
@@ -83,12 +88,13 @@ div#primeiro-conteudo{
 }
 
 div.container-conteudo{
-    margin-top: 50px;
+    margin-top: 70px;
 }
 
 div.tittle-primeiro-conteudo h1{
     text-align: center;
-    font-size: 80px;
+    font-size: 85px;
+    font-weight: 800;
     color: #FAFAFA;
     letter-spacing: 1px;
     line-height: 80px;
@@ -100,6 +106,133 @@ div.text-primeiro-conteudo{
 
 div.text-primeiro-conteudo p{
     text-align: center;
-    font-size: 19px;
+    font-size: 18px;
     color: #FAFAFA;
+}
+
+div.col-1 img.button-position{
+    position: absolute;
+    margin-top: 445px;
+    margin-left: -100px;
+}
+
+/*About Us*/
+div.container-about-us{
+    margin-top: -95px;
+}
+
+div.tittle-about-us h2{
+    text-align: center;
+    font-size: 85px;
+    font-weight: 600;
+    color: #313131;
+}
+
+div.primeiro-conteudo-img-about-us{
+    margin-top: -110px;
+    margin-left: -50px;
+}
+
+div.primeiro-conteudo-img-about-us img,
+div.segundo-conteudo-img-about-us img{
+    z-index: 2;
+}
+
+.box-azul-esquerda{
+    background: #1E5Afa;
+    width: 546px;
+    height: 352px;
+    border-radius: 10px;
+    z-index: 1;
+    margin-top: -600px;
+    margin-left: 134px;
+}
+
+div.primeiro-conteudo-text-about-us{
+    margin-top: 160px;
+    margin-left: 220px;
+}
+
+div.primeiro-conteudo-text-about-us h3,
+div.segundo-conteudo-text-about-us h3,
+div.terceiro-conteudo-text-about-us h3{
+    font-size: 43px;
+    font-weight: 600;
+    color: #000f37;
+}
+
+div.primeiro-conteudo-text-about-us p,
+div.segundo-conteudo-text-about-us p,
+div.terceiro-conteudo-text-about-us p{
+    width: 450px;
+    margin-top: 35px;
+    font-size: 20px;
+    color: #575757;
+    line-height: 35px;
+    margin-bottom: 35px;
+}
+
+div.primeiro-conteudo-text-about-us .btn-more-azulescuro{
+    background: #000f37;
+    padding: 14px 44px;
+}
+
+div.primeiro-conteudo-text-about-us .btn-more-azulescuro a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #FAFAFA;
+}
+
+div.segundo-conteudo-text-about-us{
+    margin-top: 160px;
+    margin-left: 100px;
+}
+
+div.segundo-conteudo-img-about-us img{
+    margin-left: -200px;
+    margin-top: -110px;
+}
+
+div.segundo-conteudo-img-about-us .box-azul-direita{
+    background: #1E5Afa;
+    width: 546px;
+    height: 352px;
+    border-radius: 10px;
+    z-index: 1;
+    margin-top: -600px;
+    margin-left: 60px;
+}
+
+div.terceiro-conteudo-img-about-us img{
+    margin-top: -100px;
+    margin-left: -50px;
+}
+
+div.terceiro-conteudo-img-about-us .box-azul-esquerda-2{
+    background: #1E5Afa;
+    width: 546px;
+    height: 352px;
+    border-radius: 10px;
+    z-index: 1;
+    margin-top: -590px;
+    margin-left: 90px;
+}
+
+div.terceiro-conteudo-text-about-us{
+    margin-top: 200px;
+    margin-left: 200px;
+}
+
+div.segundo-conteudo-text-about-us .btn-more-semfundo, div.terceiro-conteudo-text-about-us .btn-more-semfundo{
+    border: 2px solid #000f37;
+    border-radius: 5px;
+    padding: 16px 44px;
+}
+
+div.segundo-conteudo-text-about-us .btn-more-semfundo a, div.terceiro-conteudo-text-about-us .btn-more-semfundo a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #000f37;
 }
