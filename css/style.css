@@ -1,0 +1,105 @@
+/* Formatacoes gerais*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Layout */
+
+body{
+    height: 8224px;
+    background: url(../img/Design.png) no-repeat center;
+}
+
+/* nav-bar*/
+div .navbar-nav{
+    width: 400px;
+    margin-top: 8px;
+    margin-left: 45px;
+    margin-right: 100px;
+}
+
+ul.navbar-nav li a {
+    font-size: 18px;
+    color: #FAFAFA;
+}
+
+a.navbar-brand{
+    margin-right: 300px;
+    font-size: 35px;
+    color: #FAFAFA;
+}
+
+a.navbar-brand:hover{
+    color: #FAFAFA;
+}
+
+div#login-content{
+    margin-left: -13px;
+    margin-top: 9px;
+}
+
+div#login-content .login-click{
+    text-decoration: none;
+    font-size: 18px;
+    color: #FAFAFA;
+}
+
+div#login-content .btn-custom{
+    font-size: 18px;
+    color: #011037;
+    background-color: #FFFFFF;
+    padding: 15px 35px;
+    margin-left: 20px;
+}
+
+/*Social-icons*/
+
+div#social-icons{
+    position: absolute;
+    margin-left: 300px;
+    margin-top: -1000px;
+}
+
+div#social-icons a{
+    font-size: 25px;
+    color: #fafafa;
+    margin-top: 25px;
+}
+
+a i.fa-facebook-f{
+    margin-left: 3px;
+}
+
+/*primeiro-conteudo*/
+div#primeiro-conteudo{
+    height: 790px;
+    background: url(../img/Group\ 1.png) no-repeat top center,
+                url(../img/Ellipse\ 753.png) no-repeat top right,
+                url(../img/Rectangle\ 1.png),
+                #1E5Afa;
+
+    
+}
+
+div.container-conteudo{
+    margin-top: 50px;
+}
+
+div.tittle-primeiro-conteudo h1{
+    text-align: center;
+    font-size: 80px;
+    color: #FAFAFA;
+    letter-spacing: 1px;
+    line-height: 80px;
+}
+
+div.text-primeiro-conteudo{
+    margin-top: 20px;
+}
+
+div.text-primeiro-conteudo p{
+    text-align: center;
+    font-size: 19px;
+    color: #FAFAFA;
+}
