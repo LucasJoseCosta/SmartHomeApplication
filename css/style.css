@@ -54,7 +54,7 @@ div#login-content .btn-custom{
     color: #011037;
     background-color: #FFFFFF;
     padding: 14px 45px;
-    margin-left: 35px;
+    margin-left: 55px;
     border-radius: 5px;
 }
 
@@ -285,7 +285,9 @@ div.testimonials-white-box{
     box-shadow: 0px 2px 4px hsl(0, 0%, 0%,25%);
 }
 
-div.testimonials-gray-box{
+div.testimonials-gray-box,
+div.testimonials-gray-box-2,
+div.testimonials-gray-box-4{
     width: 580px;
     height: 273px;
     background:#FAFAFA;
@@ -373,3 +375,384 @@ span.primeira-seta img,span.segunda-seta img{
     width: 50px;
     height: 18px;
 }
+
+/* FAQ Content*/
+div.faq-content-tittle h3{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 85px;
+    font-weight: 700;
+    color: #313131;
+}
+
+div.faq-content-box1{
+    margin-top: 40px;
+}
+
+.faq-content-box{
+    margin-top: 20px;
+}
+
+.faq-gray-box{
+    background: #fafafa;
+    border: 2px solid #E7EBEE;
+    border-radius: 10px;
+    width: 676px;
+    height: 100px;
+}
+
+button i.fa-plus{
+    margin-top: 25px;
+    margin-left: 30px;
+    font-size: 30px;
+    color: #1b1139;
+}
+
+button i.fa-minus{
+    margin-top: 26px;
+    margin-left: 30px;
+    font-size: 30px;
+    color: #FD5757;
+}
+
+span.faq-question-content{
+    font-size: 18px;
+    font-weight: 500;
+    display: inline-block;
+    margin-top: 33px;
+    margin-left: -20px;
+}
+
+div.faq-answer-content{
+    width: 382px;
+    margin-top: 20px;
+    margin-left: -20px;
+    font-size: 18px;
+    color: #575757;
+}
+
+.faq-answer-box-white{
+    background: #ffffff;
+    width: 676px;
+    height: 241px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px hsl(0, 0%, 0%,25%);
+}
+
+/*Download App*/
+div#download-section{
+    margin-top: 200px;
+}
+
+div.download-section-tittle{
+    margin-top: 300px;
+    margin-left: 100px;
+}
+
+div.download-section-tittle h3{
+    font-size: 85px;
+    font-weight: 700;
+    color: #313131;
+    letter-spacing: -3px;
+}
+
+div.download-section-text{
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+div.download-section-text p{
+    font-size: 18px;
+    color: #575757;
+}
+
+div.download-section-buttons{
+    margin-top: 60px;
+}
+
+button.btn-google-download{
+    margin-left: -110px;
+}
+
+/*subscribe content*/
+
+div.box-azul-subscribe{
+    width: 1170px;
+    height: 300px;
+    border-radius: 10px;
+    background: url(/img/Union.png) no-repeat bottom right 25px,
+                #1E5aFA;  
+
+}
+
+div.subscribe-content-tittle{
+    margin-top: 55px;
+    margin-left: 68px;
+}
+
+div.subscribe-content-tittle h3{
+    font-size: 44px;
+    font-weight: 600;
+    color: #FDFDFF;
+}
+
+div.subscribe-content-text{
+    margin-top: 30px;
+    margin-left: 72px;
+}
+
+div.subscribe-content-text p {
+    font-size: 18px;
+    color: #FDFDFF;
+}
+
+div.subscribe-content-button{
+    margin-top: 100px;
+    margin-left: 40px;
+}
+
+div.subscribe-content-button .btn-custom-getstart{
+    width: 200px;
+    height: 70px;
+    font-size: 18px;
+    border: 2px solid #FAFAFA;
+    color: #FAFAFA;
+}
+
+/*menu footer*/
+div#menu-footer{
+    margin-top: 140px;
+}
+
+div#register-footer{
+    margin-left: 50px;
+}
+
+div.menu-footer-smarthome h6{
+    font-size: 32px;
+    font-weight: 700;
+    color: #313131;
+}
+
+div.menu-footer-smarthome-text p{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    color: #575757;
+}
+
+form#register-email input#email{
+    width: 189px;
+    height: 46px;
+    background: #E7EBEE;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
+}
+
+form#register-email input.btn-register{
+    margin-top: -4px;
+    border: 2px solid #011037;
+    width: 100px;
+    height: 46px;
+    font-size: 14px;
+    color:#011037;
+}
+
+div#categories,
+div#about-us,
+div#follow-us{
+    margin-left: -10px;
+    margin-top: 5px;
+}
+
+div#categories h6,
+div#about-us h6,
+div#follow-us h6{
+    font-size: 24px;
+    font-weight: 600;
+    color: #2e2e2e;
+}
+
+div#categories ul,
+div#about-us ul,
+div#follow-us ul{
+    margin-top: 50px;
+    margin-left: -15px;
+}
+
+div#categories ul li a,
+div#about-us ul li a,
+div#follow-us ul li a{
+    font-size: 18px;
+    color: #575757;
+}
+
+/*footer*/
+div#footer{
+    margin-top: 110px;
+}
+
+div.box-dark-blue-footer{
+    width: 1440px;
+    height: 100px;
+    background: #000F37;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+div.footer-text{
+    margin-top: 40px;
+}
+
+div#footer p {
+    text-align: center;
+    font-size: 20px;
+    color: #FAFAFA;
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+
+ }
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+
+ }
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+
+    html,body{
+        overflow-x: hidden;
+    }
+
+    /*navbar*/
+    div .navbar-nav{
+        width: 400px;
+        margin-top: 8px;
+        margin-left: -40px;
+        margin-right: 130px;
+    }
+
+    div#login-content .btn-custom{
+        font-size: 18px;
+        color: #011037;
+        background-color: #FFFFFF;
+        padding: 10px 45px;
+        margin-left: 82px;
+        border-radius: 5px;
+        margin-top: -50px;
+    }
+
+    div#login-content .login-click{
+        display: inline-block;
+        margin-top: 10px;
+        text-decoration: none;
+        font-size: 17px;
+        color: #FAFAFA;
+    }
+
+    /*Social Icons*/
+
+    div#social-icons{
+        position: absolute;
+        margin-left: 40px;
+        margin-top: -880px;
+    }
+
+    div.img-header-format img{
+        margin-top: -30px;
+        margin-left: -70px;
+    }
+
+    div.col-1 img.button-position{
+        position: absolute;
+        margin-top: 415px;
+        margin-left: -28px;
+    }
+
+    /*About us*/
+    div.primeiro-conteudo-img-about-us{
+        margin-top: -110px;
+        margin-left: -150px;
+    }
+
+    div.primeiro-conteudo-text-about-us{
+        margin-top: 160px;
+        margin-left: 300px;
+    }
+
+    div.terceiro-conteudo-img-about-us{
+        margin-left: -104px;
+    }
+
+    div.terceiro-conteudo-text-about-us{
+        margin-top: 200px;
+        margin-left: 260px;
+    }
+
+    /*testimonials*/
+    div.testimonials-gray-box,
+    div.testimonials-gray-box-2,
+    div.testimonials-gray-box-3,
+    div.testimonials-gray-box-4{
+    width: 560px;
+    height: 273px;
+    background:#FAFAFA;
+    border: 2px solid #E7EBEE;
+    border-radius: 10px;
+    }      
+    
+    div.testimonials-white-box{
+        width: 560px;
+        height: 273px;
+        background:#ffffff;
+        border-radius: 10px;
+        margin-right: 10px;
+        margin-bottom: 25px;
+        box-shadow: 0px 2px 4px hsl(0, 0%, 0%,25%);
+    }
+
+    div.testimonials-setas{
+        margin-top: 60px;
+        margin-left: 30px;
+    }
+
+    /*Download section*/
+
+    div.download-section-tittle{
+        margin-top: 300px;
+        margin-left: 40px;
+    }
+
+    div.download-section-text{
+        margin-left: 40px;
+        margin-top: 40px;
+    }
+
+    button.btn-apple-download{
+        margin-left: -52px;
+    }
+
+    button.btn-google-download{
+        margin-left: -120px;
+    }
+
+    /*menu-footer*/
+    div#register-footer{
+        margin-left: -25px;
+    }
+ }
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) { 
+
+ }
